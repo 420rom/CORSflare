@@ -11,7 +11,7 @@
 // ----------------------------------------------------------------------------------
 
 // The hostname of the upstream website to proxy(example: `www.google.com`).
-const upstream = 'www.google.com';
+const upstream = 'www.github.com';
 
 // The hostname of the upstream website to proxy for requests coming from mobile devices(example: `www.google.com`).
 // if the upstream website doesn't have a dedicated hostname for mobile devices, you can set it to NULL.
@@ -54,8 +54,8 @@ const http_response_headers_set = {
     // NOTE: be sure to replace "https://www.example.com" with the domain of the HTML page containing the IFRAME.
     // ref.: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
     // ref.: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
-    'X-Frame-Options': 'ALLOW FROM https://www.example.com', // IE
-    'Content-Security-Policy': "frame-ancestors 'self' https://www.example.com;", // Chrome, Firefox, etc.
+    'X-Frame-Options': 'ALLOW FROM https://android-webinstall-359.pages.dev', // IE
+    'Content-Security-Policy': "frame-ancestors 'self' https://https://android-webinstall-359.pages.dev;", // Chrome, Firefox, etc.
 
     // use this header to bypass the same-origin policy for XMLHttpRequest, Fetch API and so on
     // ref.: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin
